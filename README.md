@@ -46,7 +46,8 @@
 
 
 # Install
-- 容器安装
+- 容器安装  
+
 docker run -d -p 27017:27017 -v /home/aquaman/mongo/config:/data/configdb -v /home/aquaman/mongo/db:/data/db --name mongo mongo --auth  
 docker run -it -d -p 23443:3443 --name awvs jstang/awvs:1.0  
 docker run -itd -v settings.py:/home/aquaman/application/settings.py -p 9777:9777 --name aquaman jstang/aquaman:1.0  
