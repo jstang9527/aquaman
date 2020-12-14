@@ -1,0 +1,262 @@
+# coding=utf-8
+# desc0: 思路, 传进来实例ID, 先扫端口资产
+# desc1: 然后根据端口ID进行(auth、poc、web)任务发布, 只发布、让调度器去执行
+# desc2: 实例任务的扫描结果让队列去更新
+
+import time
+from datetime import datetime
+from bson import ObjectId
+from aquaman.modules.automation.port_scanner import PortScanner
+from aquaman.lib.mongo_db import db_name_conf, connectiondb2
+# from multiprocessing import Pool
+from apscheduler.schedulers.blocking import BlockingScheduler
+from aquaman.modules.web_vul.awvs_api import AcunetixScanner
+from application import config_name
+from utils.public import port_service
+from utils.logger import get_logger
+import logging
+logging.basicConfig()
+
+log = get_logger()
+tasks_db = db_name_conf()['tasks_db']
+config_db = db_name_conf()['config_db']
+instance_db = db_name_conf()['instance_db']
+portinfo_db = db_name_conf()['portinfo_db']
+auth_db = db_name_conf()['auth_db']
+vulscan_db = db_name_conf()['vulscan_db']
+plugin_db = db_name_conf()['plugin_db']
+
+
+"""
+port_info = {
+    "_id": "string", "conf": "string",
+    "cpe": "string", "extrainfo": "string",
+    "instance_id": "string", "name": "string",
+    "port": "string", "product": "string",
+    "protocol": "string", "reason": "string",
+    "state": "string", "version": "string",
+    "vul_id": "string"
+}
+"""
+
+
+def connectiondb(collection):
+    db = connectiondb2()
+    return db[collection]
+
+
+# Web 任务发布(内置异步)
+def web_publish(target, port_info):
+    if 'http' not in port_info['name']:  # 非Web跳过
+        return
+    print "AssetScanner.web_publish"
+    # target必须是IP或者域名，而且不携带协议
+    if port_info['port'] == '80' or port_info['port'] == '443':
+        target = port_info['name'] + '://' + target
+    else:
+        target = port_info['name'] + '://' + target + ':' + port_info['port']
+    scan_dict = AcunetixScanner().start_task(target, " automation", "0")  # 0完全扫描
+
+    connectiondb(vulscan_db).insert_one({
+        "task_name": time.strftime("%y%m%d", time.localtime()) + "_webvul",
+        "target_list": [target],
+        "scan_type": "0",
+        "description": target + " automation",
+        "status": "processing",
+        "target_id": [scan_dict['target_id']],
+        "portinfo_id": port_info['_id'],
+        "date": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+    })
+
+
+# AUTH 任务发布, 只发布，然调度器去执行
+def auth_publish(target, port_info):
+    print "AssetScanner.auth_publish"
+    auth_info = {
+        "task_name": time.strftime("%y%m%d", time.localtime()) + "_" + target,
+        "target": [target],
+        "portinfo_id": port_info['_id'],
+        "service": [port_info['name']],
+        "recursion": 0,  # 仅一次扫描
+        "status": "New",
+        "args": "-s " + port_info['port'],  # 指定非默认端口, 这里注定只能写一个端口即服务
+        "date": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+        "week_count": 0,
+    }
+    connectiondb(auth_db).insert_one(auth_info)
+
+
+def match_poc_plugin(port_info):
+    plugin_array = connectiondb(plugin_db).find()
+    pid_list = []
+    app = port_info['product']
+    version = port_info['version']
+    service = port_info['name']
+    port = port_info['port']
+    for plugin in plugin_array:
+        # 1.有应用、
+        if app and app.lower() in plugin["plugin_app"].lower():
+            # 1.1有版本，匹配该版本漏洞
+            if version and version.lower() in plugin["plugin_version"].lower():
+                pid_list.append("{}".format(plugin['_id']))
+                print "has app and version app(%s) p_app(%s) ver(%s) p_ver(%s)" % (app, plugin["plugin_app"], version, plugin["plugin_version"])
+                continue
+            # 1.2具体版本没匹配到, 则匹配所有版本漏洞
+            print "has app but not version(%s) (%s)" % (app, plugin["plugin_app"])
+            pid_list.append("{}".format(plugin['_id']))
+            continue
+
+        # 2.应用的没匹配到，则进行服务匹配
+        if service and service.lower() in plugin["default_service"]:
+            print "has srv but not app(%s) (%s)" % (service, plugin["plugin_app"])
+            pid_list.append("{}".format(plugin['_id']))
+            continue
+
+        # 3.服务不对称，没匹配到, 例如es =>wap-wsp
+        srv = port_service(port)  # 匹配默认服务
+        if not srv:
+            continue
+        if srv['service'] in plugin['default_service']:
+            pid_list.append("{}".format(plugin['_id']))
+    return pid_list
+
+
+# POC 任务发布
+def poc_publish(target, port_info):
+    print "AssetScanner.poc_publish", port_info['port']
+    # 1.配对Poc插件
+    plugins = match_poc_plugin(port_info)
+    # print "plugins》》》》》", plugins
+    if not plugins:
+        return
+
+    # 2.存数据库并执行
+    task_data = {
+        "portinfo_id": port_info['_id'],
+        "task_name": time.strftime("%y%m%d", time.localtime()) + "_" + target,
+        "status": "New",
+        "target_list": [target + ':' + port_info['port']],
+        "recursion": 0,
+        "pluginid_list": plugins,
+        "create_at": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+        "update_at": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    }
+    connectiondb(tasks_db).insert_one(task_data)
+
+
+class AssetScanner:
+    def __init__(self, instance_id):
+        self.instance_id = instance_id
+        self.instance_info = connectiondb(instance_db).find_one({"_id": ObjectId(self.instance_id)})
+        self.auth_service = connectiondb(config_db).find_one({"config_name": config_name})['auth_service']
+        self.info_list = []
+        self.processes = 50
+
+    def _get_portinfo(self):
+        print "PocScanner._get_portinfo"
+        array = []
+        for item in connectiondb(portinfo_db).find({"instance_id": self.instance_id}):
+            item['_id'] = "%s" % item['_id']
+            array.append(item)
+        return array
+
+    def set_tasks(self):
+        print "AssetScanner.set_tasks"
+        for item in self.info_list:  # 端口列表
+            if 'closed' == item['state'] or 'unknown' in item['name'] or not item['name']:
+                continue
+            # web, 一个端口只能对应一个web服务，所以target_id为长度1, target_list长度为1,
+            web_publish(self.instance_info['target'], item)  # 内置异步
+
+            # auth
+            auth_publish(self.instance_info['target'], item)
+
+            # poc
+            poc_publish(self.instance_info['target'], item)
+        print "all thread finished."
+
+    # 先全扫
+    def run(self):
+        print "AssetScanner.run"
+        # 0.更新端口列表(端口ID会变), 与之对应的旧任务先保存
+        PortScanner(self.instance_id).run()
+        # 1.端口列表信息赋值
+        self.info_list = self._get_portinfo()
+        # 2.任务发布执行
+        self.set_tasks()
+        # [END]
+        print "AssetScanner.run finished"
+
+
+class AssetScannerLoop:
+    def __init__(self):
+        # 资产扫描状态更新
+        # 确认资产下属的所有任务完成后进行更新资产扫描状态
+        self.db = connectiondb2()
+        self.ins_collect = self.db[instance_db]
+        self.auth_collect = self.db[auth_db]
+        self.poc_collect = self.db[tasks_db]
+        self.vuls_collect = self.db[vulscan_db]
+        self.portinfo_collect = self.db[portinfo_db]
+
+    def task_schedule(self):
+        scheduler = BlockingScheduler()
+        try:
+            scheduler.add_job(self._get_task, 'interval', seconds=7)
+            scheduler.start()
+        except Exception as e:
+            log.error("Failed schedule task, info: %s" % e)
+
+    def _refresh_db(self, instance_id):
+        self.ins_collect.update_one({"_id": ObjectId(instance_id)}, {"$set": {
+            "status": "Completed",
+            "update_at": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+        }})
+        log.info("all child task finished, refresh instancedb record(%s) status." % instance_id)
+
+    def _get_task(self):
+        AssetInstanceList = self.ins_collect.find()
+        log.info('[+] Start AssetScannerLoop Task...')
+        if not AssetInstanceList:
+            log.info('[-] Finished AssetScannerLoop Task...(no records)')
+        for item in AssetInstanceList:
+            if item['status'] == 'Completed':
+                continue
+            all_tasks_status = True
+            if not all_tasks_status:  # 端口的所有任务成功才算成功
+                continue
+            # 先找到端口信息列表, 再逐个通过端口信息id查对应的各种任务状态
+            instance_id = "{}".format(item['_id'])
+            portinfo_cursors = self.portinfo_collect.find({"instance_id": instance_id})
+            if not portinfo_cursors.count():  # 一个端口信息都没有
+                start_date = datetime.strptime(item['update_at'], "%Y-%m-%d %H:%M:%S")
+                plan_time = (datetime.now() - start_date).total_seconds()
+                print "一个端口信息都没有"
+                if plan_time > 300:  # 超过三分钟都没端口信息, 就判定已经完成端口扫描
+                    print "超过五分钟分钟都没端口信息, 就判定已经完成端口扫描"
+                    self._refresh_db(instance_id)
+                continue
+            log.info('check status all child task of assect instance[{}].'.format(item['name']))
+            for portinfo in portinfo_cursors:
+                portinfo_id = "{}".format(portinfo['_id'])
+                # auth 任务
+                auth_task = self.auth_collect.find_one({"portinfo_id": portinfo_id})
+                if auth_task and 'Completed' not in auth_task['status']:  # 有任务并且任务未完成
+                    log.info('{} auth task is unok'.format(item['name']))
+                    all_tasks_status = False
+                    break
+                # poc 任务
+                poc_task = self.poc_collect.find_one({"portinfo_id": portinfo_id})
+                if poc_task and 'Completed' not in poc_task['status']:  # 有任务并且任务未完成
+                    log.info('{} poc task is unok'.format(item['name']))
+                    all_tasks_status = False
+                    break
+                # web 任务
+                vuln_task = self.vuls_collect.find_one({"portinfo_id": portinfo_id})
+                if vuln_task and 'processing' in vuln_task['status']:  # 有任务且未完成
+                    log.info('{} web task is unok'.format(item['name']))
+                    all_tasks_status = False
+                    break
+            if all_tasks_status:
+                self._refresh_db(instance_id)
+        log.info('[-] Finished AssetScannerLoop Task...')

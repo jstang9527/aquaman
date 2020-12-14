@@ -1,0 +1,1 @@
+docker run -d -p 27017:27017 -v /home/aquaman/aquaman/mongo/config:/data/configdb -v /home/aquaman/aquaman/mongo/db:/data/db --name mongo mongo --auth

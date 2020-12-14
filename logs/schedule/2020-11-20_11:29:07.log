@@ -1,0 +1,10 @@
+[2020-11-20 11:29:22,660] - INFO - process: 10228 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:29:22,666] - INFO - process: 10228 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:29:33,662] - INFO - process: 10228 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:29:33,668] - INFO - process: 10228 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:29:44,664] - INFO - process: 10228 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:29:44,668] - INFO - process: 10228 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:29:55,663] - INFO - process: 10228 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:29:55,669] - INFO - process: 10228 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:30:06,664] - INFO - process: 10228 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:30:06,671] - INFO - process: 10228 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.

@@ -1,0 +1,30 @@
+[2020-11-20 11:44:14,703] - INFO - process: 30561 - asset_scanner.py - utils.logger - 155 - asset_scanner - [AssetScanner] k8s-node2(5fb5187996136cdd11edaf88) Task Start >>>.
+[2020-11-20 11:44:37,209] - INFO - process: 30561 - asset_scanner.py - utils.logger - 183 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:44:37,213] - INFO - process: 30561 - asset_scanner.py - utils.logger - 199 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:44:37,213] - INFO - process: 30561 - asset_scanner.py - utils.logger - 227 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:45:07,192] - INFO - process: 30561 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:45:07,192] - INFO - process: 30561 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:45:07,195] - INFO - process: 30561 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:45:07,203] - INFO - process: 30561 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:45:07,206] - INFO - process: 30561 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:45:07,208] - INFO - process: 30561 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:45:07,210] - INFO - process: 30561 - asset_scanner.py - utils.logger - 183 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:45:07,213] - INFO - process: 30561 - asset_scanner.py - utils.logger - 199 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:45:07,213] - INFO - process: 30561 - asset_scanner.py - utils.logger - 227 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:45:37,210] - INFO - process: 30561 - asset_scanner.py - utils.logger - 183 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:45:37,214] - INFO - process: 30561 - asset_scanner.py - utils.logger - 199 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:45:37,214] - INFO - process: 30561 - asset_scanner.py - utils.logger - 227 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:46:07,192] - INFO - process: 30561 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:46:07,195] - INFO - process: 30561 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:46:07,199] - INFO - process: 30561 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:46:07,207] - INFO - process: 30561 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:46:07,210] - INFO - process: 30561 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:46:07,210] - INFO - process: 30561 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:46:07,211] - INFO - process: 30561 - asset_scanner.py - utils.logger - 183 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:46:07,215] - INFO - process: 30561 - asset_scanner.py - utils.logger - 199 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:46:07,215] - INFO - process: 30561 - asset_scanner.py - utils.logger - 227 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:46:32,078] - INFO - process: 30561 - asset_scanner.py - utils.logger - 157 - asset_scanner - [AssetScanner] k8s-node2(5fb5187996136cdd11edaf88) set_tasks.
+[2020-11-20 11:46:37,210] - INFO - process: 30561 - asset_scanner.py - utils.logger - 183 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:46:37,217] - INFO - process: 30561 - asset_scanner.py - utils.logger - 204 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:46:37,238] - INFO - process: 30561 - asset_scanner.py - utils.logger - 180 - asset_scanner - [AssetScannerLoop] refresh k8s-node2(5fb5187996136cdd11edaf88) asset status(Completed).
+[2020-11-20 11:46:37,238] - INFO - process: 30561 - asset_scanner.py - utils.logger - 227 - asset_scanner - [AssetScannerLoop] Schedule Finished.

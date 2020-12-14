@@ -1,0 +1,725 @@
+[2020-11-20 11:06:10,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:06:10,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:06:21,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:06:21,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:06:32,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:06:32,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:06:43,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:06:43,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:06:54,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:06:54,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:06:59,369] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:06:59,374] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:06:59,375] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:06:59,382] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:06:59,384] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:06:59,386] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:07:05,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:07:05,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:07:16,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:07:16,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:07:27,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:07:27,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:07:38,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:07:38,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:07:49,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:07:49,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:07:59,375] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:07:59,380] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:07:59,382] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:07:59,388] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:07:59,395] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:07:59,397] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:08:00,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:00,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:11,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:11,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:22,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:22,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:33,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:33,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:44,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:44,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:55,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:08:55,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:08:59,374] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:08:59,376] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:08:59,377] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:08:59,380] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:08:59,383] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:08:59,386] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:09:06,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:09:06,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:09:17,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:09:17,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:09:28,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:09:28,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:09:39,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:09:39,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:09:50,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:09:50,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:09:59,372] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:09:59,375] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:09:59,382] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:09:59,394] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:09:59,398] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:09:59,401] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:10:01,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:01,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:12,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:12,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:23,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:23,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:34,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:34,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:42,248] - INFO - process: 6592 - asset_scanner.py - utils.logger - 148 - asset_scanner - [AssetScanner] k8s-node2(5fb5187996136cdd11edaf88) Task Start >>>.
+[2020-11-20 11:10:45,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:45,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:10:45,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:56,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:10:56,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:10:56,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:10:59,375] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:10:59,383] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:10:59,384] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:10:59,397] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:10:59,398] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:10:59,406] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:11:07,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:11:07,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:11:07,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:11:18,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:11:18,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:11:18,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:11:29,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:11:29,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:11:29,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:11:40,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:11:40,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:11:40,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:11:51,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:11:51,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:11:51,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:11:59,373] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:11:59,376] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:11:59,377] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:11:59,381] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:11:59,382] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:11:59,386] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:12:02,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:02,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:12:02,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:13,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:13,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:12:13,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:24,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:24,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:12:24,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:35,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:35,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:12:35,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:46,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:46,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 192 - asset_scanner - [AssetScannerLoop] The k8s-node2(5fb5187996136cdd11edaf88) does not have any port.(no records)
+[2020-11-20 11:12:46,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:56,117] - INFO - process: 6592 - asset_scanner.py - utils.logger - 150 - asset_scanner - [AssetScanner] k8s-node2(5fb5187996136cdd11edaf88) set_tasks.
+[2020-11-20 11:12:56,226] - INFO - process: 6592 - asset_scanner.py - utils.logger - 152 - asset_scanner - [AssetScanner] k8s-node2(5fb5187996136cdd11edaf88) Task Finished <<<.
+[2020-11-20 11:12:57,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:12:57,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:12:57,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:12:57,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:12:59,371] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:12:59,375] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:12:59,377] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:12:59,396] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120qbe0_k8s(5fb73438472bd9bc606d7057) One time Scan Start...
+[2020-11-20 11:12:59,398] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:12:59,451] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120x3m9_k8s(5fb73438472bd9bc606d7056) One time Scan Start...
+[2020-11-20 11:12:59,523] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120x3m9_k8s(5fb73438472bd9bc606d7056) Task Start >>>.
+[2020-11-20 11:12:59,524] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011208juz_k8s(5fb73438472bd9bc606d7058) One time Scan Start...
+[2020-11-20 11:12:59,585] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120qbe0_k8s(5fb73438472bd9bc606d7057) Task Start >>>.
+[2020-11-20 11:12:59,587] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 20112071iz_k8s(5fb73438472bd9bc606d705a) One time Scan Start...
+[2020-11-20 11:12:59,660] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:00,105] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120voza_k8s(5fb73438472bd9bc606d7059) One time Scan Start...
+[2020-11-20 11:13:00,124] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011208juz_k8s(5fb73438472bd9bc606d7058) Task Start >>>.
+[2020-11-20 11:13:00,125] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 20112071iz_k8s(5fb73438472bd9bc606d705a) Task Start >>>.
+[2020-11-20 11:13:00,125] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120r7zb_k8s(5fb73438472bd9bc606d705d) One time Scan Start...
+[2020-11-20 11:13:03,208] - INFO - process: 7254 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120qbe0_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:03,311] - INFO - process: 7254 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120qbe0_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:03 up 3 days, 20:44,  load average: 0.24, 0.19, 0.14'}}
+[2020-11-20 11:13:04,880] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120qbe0_k8s(5fb73438472bd9bc606d7057) Task Finished <<<.
+[2020-11-20 11:13:06,104] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120voza_k8s(5fb73438472bd9bc606d7059) Task Start >>>.
+[2020-11-20 11:13:06,115] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120pung_k8s(5fb73438472bd9bc606d705b) One time Scan Start...
+[2020-11-20 11:13:06,644] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120xt3w_k8s(5fb73438472bd9bc606d7060) One time Scan Start...
+[2020-11-20 11:13:06,648] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120r7zb_k8s(5fb73438472bd9bc606d705d) Task Start >>>.
+[2020-11-20 11:13:08,626] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:13:08,922] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:10,110] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120xt3w_k8s(5fb73438472bd9bc606d7060) Task Start >>>.
+[2020-11-20 11:13:10,127] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 2011207eja_k8s(5fb73438472bd9bc606d7063) One time Scan Start...
+[2020-11-20 11:13:10,127] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:13:10,351] - INFO - process: 7299 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 20112071iz_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:10,374] - INFO - process: 7299 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 20112071iz_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:10 up 3 days, 20:44,  load average: 0.22, 0.18, 0.13'}}
+[2020-11-20 11:13:11,181] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120pung_k8s(5fb73438472bd9bc606d705b) Task Start >>>.
+[2020-11-20 11:13:11,184] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:13:11,184] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011204qmu_k8s(5fb73438472bd9bc606d705c) One time Scan Start...
+[2020-11-20 11:13:11,197] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:13:11,204] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 20112071iz_k8s(5fb73438472bd9bc606d705a) Task Finished <<<.
+[2020-11-20 11:13:12,960] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120sbmj_k8s(5fb73438472bd9bc606d7066) One time Scan Start...
+[2020-11-20 11:13:13,023] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 2011207eja_k8s(5fb73438472bd9bc606d7063) Task Start >>>.
+[2020-11-20 11:13:13,360] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011204qmu_k8s(5fb73438472bd9bc606d705c) Task Start >>>.
+[2020-11-20 11:13:13,604] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120j5pu_k8s(5fb73438472bd9bc606d705e) One time Scan Start...
+[2020-11-20 11:13:16,081] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:16,721] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120sbmj_k8s(5fb73438472bd9bc606d7066) Task Start >>>.
+[2020-11-20 11:13:16,807] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120upqv_k8s(5fb73438472bd9bc606d7069) One time Scan Start...
+[2020-11-20 11:13:16,986] - INFO - process: 7333 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120r7zb_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:17,111] - INFO - process: 7333 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120r7zb_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:17 up 3 days, 20:44,  load average: 0.21, 0.18, 0.13'}}
+[2020-11-20 11:13:17,260] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011200a5x_k8s(5fb73438472bd9bc606d705f) One time Scan Start...
+[2020-11-20 11:13:17,272] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120j5pu_k8s(5fb73438472bd9bc606d705e) Task Start >>>.
+[2020-11-20 11:13:18,223] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120r7zb_k8s(5fb73438472bd9bc606d705d) Task Finished <<<.
+[2020-11-20 11:13:18,431] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120mrzi_k8s(5fb73438472bd9bc606d706c) One time Scan Start...
+[2020-11-20 11:13:18,434] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120upqv_k8s(5fb73438472bd9bc606d7069) Task Start >>>.
+[2020-11-20 11:13:19,213] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:19,292] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120hws9_k8s(5fb73438472bd9bc606d7061) One time Scan Start...
+[2020-11-20 11:13:19,321] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011200a5x_k8s(5fb73438472bd9bc606d705f) Task Start >>>.
+[2020-11-20 11:13:19,499] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:13:20,926] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:13:21,579] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:13:21,586] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:13:22,783] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120mrzi_k8s(5fb73438472bd9bc606d706c) Task Start >>>.
+[2020-11-20 11:13:22,785] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120bvh8_k8s(5fb73438472bd9bc606d706f) One time Scan Start...
+[2020-11-20 11:13:23,074] - INFO - process: 7387 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120xt3w_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:23,114] - INFO - process: 7387 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120xt3w_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:23 up 3 days, 20:44,  load average: 0.17, 0.17, 0.13'}}
+[2020-11-20 11:13:23,189] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011205b39_k8s(5fb73438472bd9bc606d7062) One time Scan Start...
+[2020-11-20 11:13:23,236] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120hws9_k8s(5fb73438472bd9bc606d7061) Task Start >>>.
+[2020-11-20 11:13:23,581] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120xt3w_k8s(5fb73438472bd9bc606d7060) Task Finished <<<.
+[2020-11-20 11:13:24,393] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120bvh8_k8s(5fb73438472bd9bc606d706f) Task Start >>>.
+[2020-11-20 11:13:24,629] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 2011202o95_k8s(5fb73438472bd9bc606d7071) One time Scan Start...
+[2020-11-20 11:13:25,194] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120yepf_k8s(5fb73438472bd9bc606d7064) One time Scan Start...
+[2020-11-20 11:13:25,205] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011205b39_k8s(5fb73438472bd9bc606d7062) Task Start >>>.
+[2020-11-20 11:13:25,753] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:26,276] - INFO - process: 7420 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 2011207eja_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:26,286] - INFO - process: 7420 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 2011207eja_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:26 up 3 days, 20:45,  load average: 0.17, 0.17, 0.13'}}
+[2020-11-20 11:13:26,617] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 2011207eja_k8s(5fb73438472bd9bc606d7063) Task Finished <<<.
+[2020-11-20 11:13:26,660] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 2011202o95_k8s(5fb73438472bd9bc606d7071) Task Start >>>.
+[2020-11-20 11:13:26,673] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120ha2z_k8s(5fb73438472bd9bc606d7073) One time Scan Start...
+[2020-11-20 11:13:26,783] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120yepf_k8s(5fb73438472bd9bc606d7064) Task Start >>>.
+[2020-11-20 11:13:26,915] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120b1o5_k8s(5fb73438472bd9bc606d7065) One time Scan Start...
+[2020-11-20 11:13:27,849] - INFO - process: 7473 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120sbmj_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:27,866] - INFO - process: 7473 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120sbmj_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:27 up 3 days, 20:45,  load average: 0.16, 0.17, 0.13'}}
+[2020-11-20 11:13:28,674] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120a0s2_k8s(5fb73438472bd9bc606d7075) One time Scan Start...
+[2020-11-20 11:13:28,674] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120ha2z_k8s(5fb73438472bd9bc606d7073) Task Start >>>.
+[2020-11-20 11:13:28,741] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120sbmj_k8s(5fb73438472bd9bc606d7066) Task Finished <<<.
+[2020-11-20 11:13:28,771] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:28,779] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120b1o5_k8s(5fb73438472bd9bc606d7065) Task Start >>>.
+[2020-11-20 11:13:28,780] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120op5k_k8s(5fb73438472bd9bc606d7067) One time Scan Start...
+[2020-11-20 11:13:29,631] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 2011203m82_k8s(5fb73438472bd9bc606d7078) One time Scan Start...
+[2020-11-20 11:13:29,632] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120a0s2_k8s(5fb73438472bd9bc606d7075) Task Start >>>.
+[2020-11-20 11:13:30,903] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:13:31,082] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120op5k_k8s(5fb73438472bd9bc606d7067) Task Start >>>.
+[2020-11-20 11:13:31,121] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120674l_k8s(5fb73438472bd9bc606d7068) One time Scan Start...
+[2020-11-20 11:13:31,250] - INFO - process: 7518 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120upqv_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:31,270] - INFO - process: 7518 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120upqv_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:31 up 3 days, 20:45,  load average: 0.16, 0.17, 0.13'}}
+[2020-11-20 11:13:32,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:13:32,720] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:32,740] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:13:32,741] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:13:32,754] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120upqv_k8s(5fb73438472bd9bc606d7069) Task Finished <<<.
+[2020-11-20 11:13:32,921] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 2011203m82_k8s(5fb73438472bd9bc606d7078) Task Start >>>.
+[2020-11-20 11:13:32,925] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120k2e0_k8s(5fb73438472bd9bc606d707a) One time Scan Start...
+[2020-11-20 11:13:33,897] - INFO - process: 7546 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120mrzi_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:33,979] - INFO - process: 7546 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120mrzi_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:33 up 3 days, 20:45,  load average: 0.15, 0.17, 0.13'}}
+[2020-11-20 11:13:34,305] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120674l_k8s(5fb73438472bd9bc606d7068) Task Start >>>.
+[2020-11-20 11:13:34,343] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120ve46_k8s(5fb73438472bd9bc606d706a) One time Scan Start...
+[2020-11-20 11:13:35,335] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120mrzi_k8s(5fb73438472bd9bc606d706c) Task Finished <<<.
+[2020-11-20 11:13:35,395] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:35,808] - INFO - process: 7618 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120bvh8_k8s(node2.k8s:445) verify poc(MS17-010 SMB RCE)  all_times: 5
+[2020-11-20 11:13:36,129] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120k2e0_k8s(5fb73438472bd9bc606d707a) Task Start >>>.
+[2020-11-20 11:13:36,172] - INFO - process: 6592 - poc_scanner.py - utils.logger - 158 - poc_scanner - [PocScannerLoop] 201120urje_k8s(5fb73438472bd9bc606d707c) One time Scan Start...
+[2020-11-20 11:13:37,730] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120ve46_k8s(5fb73438472bd9bc606d706a) Task Start >>>.
+[2020-11-20 11:13:37,770] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120ju02_k8s(5fb73438472bd9bc606d706b) One time Scan Start...
+[2020-11-20 11:13:38,536] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:39,148] - INFO - process: 6592 - poc_scanner.py - utils.logger - 97 - poc_scanner - [PocScanner] 201120urje_k8s(5fb73438472bd9bc606d707c) Task Start >>>.
+[2020-11-20 11:13:39,176] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:13:39,643] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120umrk_k8s(5fb73438472bd9bc606d706d) One time Scan Start...
+[2020-11-20 11:13:39,644] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120ju02_k8s(5fb73438472bd9bc606d706b) Task Start >>>.
+[2020-11-20 11:13:39,752] - INFO - process: 7650 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 2011202o95_k8s(node2.k8s:6379) verify poc(Redis Unauthorized)  all_times: 5
+[2020-11-20 11:13:39,759] - INFO - process: 7650 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 2011202o95_k8s(node2.k8s:6379) verify poc(Redis Unauthorized) in 1 times, result: {'VerifyInfo': {'URL': 'mongo://node2.k8s:6379', 'Payload': '*1\r\n$4\r\ninfo\r\n', 'Result': '$1877\r\n# Server\r\nredis_version:2.8.23\r\nredis_git_sha1:00000000\r\nredis_git_dirty:0\r\nredis_build_id:f02b64ca84a0dc52\r\nredis_mode:standalone\r\nos:Linux 3.10.0-862.el7.x86_64 x86_64\r\narch_bits:64\r\nmultiplexing_api:epoll\r\ngcc_version:4.9.2\r\nprocess_id:1\r\nrun_id:64871654d74dda95503a11aa6236c9bde2ed862b\r\ntcp_port:6379\r\nuptime_in_seconds:235910\r\nuptime_in_days:2\r\nhz:10\r\nlru_clock:12006499\r\nconfig_file:\r\n\r\n# Clients\r\nconnected_clients:1\r\nclient_longest_output_list:0\r\nclient_biggest_input_buf:0\r\nblocked_clients:0\r\n\r\n# Memory\r\nused_memory:810512\r\nused_memory_human:791.52K\r\nused_memory_rss:7806976\r\nused_memory_peak:872864\r\nused_memory_peak_human:852.41K\r\nused_memory_lua:36864\r\nmem_fragmentation_ratio:9.63\r\nmem_allocator:jemalloc-3.6.0\r\n\r\n# Persistence\r\nloading:0\r\nrdb_changes_since_last_save:0\r\nrdb_bgsave_in_progress:0\r\nrdb_last_save_time:1605795628\r\nrdb_last_bgsave_status:ok\r\nrdb_last_bgsave_time_sec:0\r\nrdb_current_bgsave_time_sec:-1\r\naof_enabled:0\r\naof_rewrite_in_progress:0\r\naof_rewrite_scheduled:0\r\naof_last_rewrite_time'}}
+[2020-11-20 11:13:39,960] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 2011202o95_k8s(5fb73438472bd9bc606d7071) Task Finished <<<.
+[2020-11-20 11:13:40,076] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:40,367] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120umrk_k8s(5fb73438472bd9bc606d706d) Task Start >>>.
+[2020-11-20 11:13:40,369] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120cmjb_k8s(5fb73438472bd9bc606d706e) One time Scan Start...
+[2020-11-20 11:13:41,164] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:41,718] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:13:42,178] - INFO - process: 7618 - poc_scanner.py - utils.logger - 40 - poc_scanner - [PocScanner] 201120bvh8_k8s(node2.k8s:445) verify poc(MS17-010 SMB RCE) more than 5 times, result: (u'node2.k8s:445', 'MS17-010 SMB RCE', '00005', 'SMB Server', 'All', (0, 'Internet noting return'), '2020-11-20 11:13:42', '{}')
+[2020-11-20 11:13:42,410] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120cl1m_k8s(5fb73438472bd9bc606d7070) One time Scan Start...
+[2020-11-20 11:13:42,413] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120cmjb_k8s(5fb73438472bd9bc606d706e) Task Start >>>.
+[2020-11-20 11:13:42,414] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:42,468] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:13:42,562] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:13:42,563] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:13:42,600] - INFO - process: 7697 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120ha2z_k8s(node2.k8s:8081) verify poc(Apache Flink RCE)  all_times: 5
+[2020-11-20 11:13:42,674] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120bvh8_k8s(5fb73438472bd9bc606d706f) Task Finished <<<.
+[2020-11-20 11:13:42,685] - INFO - process: 7697 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120ha2z_k8s(node2.k8s:8081) verify poc(Apache Flink RCE) in 1 times, result: {'VerifyInfo': {'URL': u'http://node2.k8s:8081', 'Command': 'uptime', 'Result': '[ uptime ] execute success, result:\n 03:13:42 up 3 days, 20:45,  0 users,  load average: 0.14, 0.17, 0.13'}}
+[2020-11-20 11:13:42,705] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120op5k_k8s(5fb73438472bd9bc606d7067) Save Result Done...
+[2020-11-20 11:13:42,928] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120op5k_k8s(5fb73438472bd9bc606d7067) Task Finished <<<.
+[2020-11-20 11:13:43,358] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120ha2z_k8s(5fb73438472bd9bc606d7073) Task Finished <<<.
+[2020-11-20 11:13:44,336] - INFO - process: 7809 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 2011203m82_k8s(node2.k8s:445) verify poc(MS17-010 SMB RCE)  all_times: 5
+[2020-11-20 11:13:44,479] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120cl1m_k8s(5fb73438472bd9bc606d7070) Task Start >>>.
+[2020-11-20 11:13:44,481] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120ev57_k8s(5fb73438472bd9bc606d7072) One time Scan Start...
+[2020-11-20 11:13:44,501] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:44,504] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:44,505] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:44,887] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:44,985] - INFO - process: 7915 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120urje_k8s(node2.k8s:8081) verify poc(Apache Flink RCE)  all_times: 5
+[2020-11-20 11:13:45,081] - INFO - process: 7871 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120k2e0_k8s(node2.k8s:6379) verify poc(Redis Unauthorized)  all_times: 5
+[2020-11-20 11:13:45,086] - INFO - process: 7915 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120urje_k8s(node2.k8s:8081) verify poc(Apache Flink RCE) in 1 times, result: {'VerifyInfo': {'URL': u'http://node2.k8s:8081', 'Command': 'uptime', 'Result': '[ uptime ] execute success, result:\n 03:13:45 up 3 days, 20:45,  0 users,  load average: 0.13, 0.17, 0.13'}}
+[2020-11-20 11:13:45,144] - INFO - process: 7871 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120k2e0_k8s(node2.k8s:6379) verify poc(Redis Unauthorized) in 1 times, result: {'VerifyInfo': {'URL': 'mongo://node2.k8s:6379', 'Payload': '*1\r\n$4\r\ninfo\r\n', 'Result': '$1877\r\n# Server\r\nredis_version:2.8.23\r\nredis_git_sha1:00000000\r\nredis_git_dirty:0\r\nredis_build_id:f02b64ca84a0dc52\r\nredis_mode:standalone\r\nos:Linux 3.10.0-862.el7.x86_64 x86_64\r\narch_bits:64\r\nmultiplexing_api:epoll\r\ngcc_version:4.9.2\r\nprocess_id:1\r\nrun_id:64871654d74dda95503a11aa6236c9bde2ed862b\r\ntcp_port:6379\r\nuptime_in_seconds:235916\r\nuptime_in_days:2\r\nhz:10\r\nlru_clock:12006505\r\nconfig_file:\r\n\r\n# Clients\r\nconnected_clients:1\r\nclient_longest_output_list:0\r\nclient_biggest_input_buf:0\r\nblocked_clients:0\r\n\r\n# Memory\r\nused_memory:810512\r\nused_memory_human:791.52K\r\nused_memory_rss:7806976\r\nused_memory_peak:872864\r\nused_memory_peak_human:852.41K\r\nused_memory_lua:36864\r\nmem_fragmentation_ratio:9.63\r\nmem_allocator:jemalloc-3.6.0\r\n\r\n# Persistence\r\nloading:0\r\nrdb_changes_since_last_save:0\r\nrdb_bgsave_in_progress:0\r\nrdb_last_save_time:1605795628\r\nrdb_last_bgsave_status:ok\r\nrdb_last_bgsave_time_sec:0\r\nrdb_current_bgsave_time_sec:-1\r\naof_enabled:0\r\naof_rewrite_in_progress:0\r\naof_rewrite_scheduled:0\r\naof_last_rewrite_time'}}
+[2020-11-20 11:13:45,169] - INFO - process: 7761 - poc_scanner.py - utils.logger - 35 - poc_scanner - [PocScanner] 201120a0s2_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor)  all_times: 5
+[2020-11-20 11:13:45,190] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120ev57_k8s(5fb73438472bd9bc606d7072) Task Start >>>.
+[2020-11-20 11:13:45,225] - INFO - process: 7761 - poc_scanner.py - utils.logger - 45 - poc_scanner - [PocScanner] 201120a0s2_k8s(node2.k8s:21) verify poc(vsFTPd 2.3.4 BackDoor) in 1 times, result: {'VerifyInfo': {'URL': u'node2.k8s:21 Backdoor Command Execution', 'Prompt': '331 Please specify the password.', 'Command': 'uptime', 'Banner': '220 (vsFTPd 2.3.4)\r\n', 'CommandResult': '03:13:45 up 3 days, 20:45,  load average: 0.12, 0.16, 0.13'}}
+[2020-11-20 11:13:45,233] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120zls8_k8s(5fb73438472bd9bc606d7074) One time Scan Start...
+[2020-11-20 11:13:45,277] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=netbios-ssn
+[2020-11-20 11:13:45,327] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120urje_k8s(5fb73438472bd9bc606d707c) Task Finished <<<.
+[2020-11-20 11:13:45,369] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120a0s2_k8s(5fb73438472bd9bc606d7075) Task Finished <<<.
+[2020-11-20 11:13:45,449] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 201120k2e0_k8s(5fb73438472bd9bc606d707a) Task Finished <<<.
+[2020-11-20 11:13:45,541] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120cmjb_k8s(5fb73438472bd9bc606d706e) Save Result Done...
+[2020-11-20 11:13:45,545] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120zls8_k8s(5fb73438472bd9bc606d7074) Task Start >>>.
+[2020-11-20 11:13:45,547] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011207uom_k8s(5fb73438472bd9bc606d7076) One time Scan Start...
+[2020-11-20 11:13:45,592] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120cmjb_k8s(5fb73438472bd9bc606d706e) Task Finished <<<.
+[2020-11-20 11:13:45,756] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=redis
+[2020-11-20 11:13:45,924] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 2011203lxq_k8s(5fb73438472bd9bc606d7077) One time Scan Start...
+[2020-11-20 11:13:45,929] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011207uom_k8s(5fb73438472bd9bc606d7076) Task Start >>>.
+[2020-11-20 11:13:46,052] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=blackice-icecap
+[2020-11-20 11:13:46,116] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ftp
+[2020-11-20 11:13:46,125] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120cl1m_k8s(5fb73438472bd9bc606d7070) Save Result Done...
+[2020-11-20 11:13:46,133] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120cl1m_k8s(5fb73438472bd9bc606d7070) Task Finished <<<.
+[2020-11-20 11:13:46,184] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 2011203lxq_k8s(5fb73438472bd9bc606d7077) Task Start >>>.
+[2020-11-20 11:13:46,194] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120f1ri_k8s(5fb73438472bd9bc606d7079) One time Scan Start...
+[2020-11-20 11:13:46,277] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120ev57_k8s(5fb73438472bd9bc606d7072) Save Result Done...
+[2020-11-20 11:13:46,339] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120ev57_k8s(5fb73438472bd9bc606d7072) Task Finished <<<.
+[2020-11-20 11:13:46,422] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120f1ri_k8s(5fb73438472bd9bc606d7079) Task Start >>>.
+[2020-11-20 11:13:46,426] - INFO - process: 6592 - auth_scanner.py - utils.logger - 132 - auth_scanner - [AuthTesterLoop] 201120cf7n_k8s(5fb73438472bd9bc606d707b) One time Scan Start...
+[2020-11-20 11:13:46,619] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=ssh
+[2020-11-20 11:13:46,961] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=netbios-ssn
+[2020-11-20 11:13:46,968] - INFO - process: 6592 - auth_scanner.py - utils.logger - 60 - auth_scanner - [AuthCrack] 201120cf7n_k8s(5fb73438472bd9bc606d707b) Task Start >>>.
+[2020-11-20 11:13:46,969] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:13:47,117] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=redis
+[2020-11-20 11:13:47,350] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 2011203lxq_k8s(5fb73438472bd9bc606d7077) Save Result Done...
+[2020-11-20 11:13:47,393] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 2011203lxq_k8s(5fb73438472bd9bc606d7077) Task Finished <<<.
+[2020-11-20 11:13:47,540] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120f1ri_k8s(5fb73438472bd9bc606d7079) Save Result Done...
+[2020-11-20 11:13:47,581] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120f1ri_k8s(5fb73438472bd9bc606d7079) Task Finished <<<.
+[2020-11-20 11:13:47,669] - INFO - process: 6592 - auth_scanner.py - utils.logger - 72 - auth_scanner - [AuthCrack] target_list=[u'node2.k8s']; service=blackice-icecap
+[2020-11-20 11:13:47,886] - INFO - process: 6592 - auth_scanner.py - utils.logger - 88 - auth_scanner - [AuthCrack] 201120cf7n_k8s(5fb73438472bd9bc606d707b) Save Result Done...
+[2020-11-20 11:13:47,915] - INFO - process: 6592 - auth_scanner.py - utils.logger - 62 - auth_scanner - [AuthCrack] 201120cf7n_k8s(5fb73438472bd9bc606d707b) Task Finished <<<.
+[2020-11-20 11:13:50,904] - INFO - process: 7809 - poc_scanner.py - utils.logger - 40 - poc_scanner - [PocScanner] 2011203m82_k8s(node2.k8s:445) verify poc(MS17-010 SMB RCE) more than 5 times, result: (u'node2.k8s:445', 'MS17-010 SMB RCE', '00005', 'SMB Server', 'All', (0, 'Internet noting return'), '2020-11-20 11:13:50', '{}')
+[2020-11-20 11:13:51,005] - INFO - process: 6592 - poc_scanner.py - utils.logger - 125 - poc_scanner - [PocScanner] 2011203m82_k8s(5fb73438472bd9bc606d7078) Task Finished <<<.
+[2020-11-20 11:13:52,597] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:13:52,606] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:13:52,618] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:13:52,618] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:13:59,382] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:13:59,386] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:13:59,389] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:13:59,393] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:13:59,396] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:13:59,409] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:14:03,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:03,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:03,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:03,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:14,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:14,435] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:14,451] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:14,451] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:25,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:25,406] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:25,416] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:25,416] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:36,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:36,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:36,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:36,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:47,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:47,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:47,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:47,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:58,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:14:58,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:14:58,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:14:58,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:14:59,391] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:14:59,402] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:14:59,415] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:14:59,423] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:14:59,428] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:14:59,447] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:15:09,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:15:09,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:15:09,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:15:09,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:15:20,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:15:20,415] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:15:20,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:15:20,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:15:31,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:15:31,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:15:31,409] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:15:31,409] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:15:42,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:15:42,416] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:15:42,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:15:42,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:15:53,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:15:53,419] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:15:53,433] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:15:53,433] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:15:59,376] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:15:59,387] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:15:59,404] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:15:59,417] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:15:59,421] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:15:59,444] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:16:04,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:04,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:04,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:04,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:16:15,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:15,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:15,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:15,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:16:26,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:26,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:26,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:26,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:16:37,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:37,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:37,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:37,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:16:48,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:48,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:48,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:48,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:16:59,392] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:16:59,393] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:16:59,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:16:59,406] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:16:59,402] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:16:59,416] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:16:59,421] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:16:59,439] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:16:59,449] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:16:59,449] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:10,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:17:10,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:17:10,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:17:10,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:21,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:17:21,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:17:21,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:17:21,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:32,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:17:32,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:17:32,450] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:17:32,450] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:43,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:17:43,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:17:43,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:17:43,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:54,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:17:54,403] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:17:54,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:17:54,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:17:59,373] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:17:59,383] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:17:59,385] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:17:59,386] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:17:59,407] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:17:59,426] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:17:59,553] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120x3m9_k8s(5fb73438472bd9bc606d7056) Task Timeout <<<.
+[2020-11-20 11:18:00,769] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  2011208juz_k8s(5fb73438472bd9bc606d7058) Task Timeout <<<.
+[2020-11-20 11:18:05,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:18:05,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:18:05,416] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:18:05,416] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:18:06,660] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120voza_k8s(5fb73438472bd9bc606d7059) Task Timeout <<<.
+[2020-11-20 11:18:11,223] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120pung_k8s(5fb73438472bd9bc606d705b) Task Timeout <<<.
+[2020-11-20 11:18:14,257] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  2011204qmu_k8s(5fb73438472bd9bc606d705c) Task Timeout <<<.
+[2020-11-20 11:18:16,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:18:16,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:18:16,409] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:18:16,409] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:18:17,448] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120j5pu_k8s(5fb73438472bd9bc606d705e) Task Timeout <<<.
+[2020-11-20 11:18:19,435] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  2011200a5x_k8s(5fb73438472bd9bc606d705f) Task Timeout <<<.
+[2020-11-20 11:18:23,472] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120hws9_k8s(5fb73438472bd9bc606d7061) Task Timeout <<<.
+[2020-11-20 11:18:25,226] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  2011205b39_k8s(5fb73438472bd9bc606d7062) Task Timeout <<<.
+[2020-11-20 11:18:26,809] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120yepf_k8s(5fb73438472bd9bc606d7064) Task Timeout <<<.
+[2020-11-20 11:18:27,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:18:27,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:18:27,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:18:27,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:18:28,806] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120b1o5_k8s(5fb73438472bd9bc606d7065) Task Timeout <<<.
+[2020-11-20 11:18:34,708] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120674l_k8s(5fb73438472bd9bc606d7068) Task Timeout <<<.
+[2020-11-20 11:18:38,084] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120ve46_k8s(5fb73438472bd9bc606d706a) Task Timeout <<<.
+[2020-11-20 11:18:38,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:18:38,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:18:38,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:18:38,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:18:39,678] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120ju02_k8s(5fb73438472bd9bc606d706b) Task Timeout <<<.
+[2020-11-20 11:18:40,406] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120umrk_k8s(5fb73438472bd9bc606d706d) Task Timeout <<<.
+[2020-11-20 11:18:45,596] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  201120zls8_k8s(5fb73438472bd9bc606d7074) Task Timeout <<<.
+[2020-11-20 11:18:46,010] - ERROR - process: 6592 - auth_scanner.py - utils.logger - 64 - auth_scanner - [AuthCrack]  2011207uom_k8s(5fb73438472bd9bc606d7076) Task Timeout <<<.
+[2020-11-20 11:18:49,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:18:49,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:18:49,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:18:49,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:18:59,370] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:18:59,380] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:18:59,381] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:18:59,385] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:18:59,387] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:18:59,389] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:19:00,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:00,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:00,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:00,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:11,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:11,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:11,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:11,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:22,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:22,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:22,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:22,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:33,386] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:33,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:33,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:33,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:44,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:44,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:44,415] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:44,415] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:55,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:19:55,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:19:55,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:19:55,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:19:59,372] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:19:59,376] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:19:59,381] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:19:59,383] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:19:59,388] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:19:59,393] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:20:06,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:20:06,420] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:20:06,449] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:20:06,449] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:20:17,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:20:17,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:20:17,442] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:20:17,442] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:20:28,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:20:28,421] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:20:28,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:20:28,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:20:39,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:20:39,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:20:39,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:20:39,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:20:50,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:20:50,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:20:50,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:20:50,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:20:59,380] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:20:59,385] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:20:59,389] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:20:59,390] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:20:59,395] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:20:59,411] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:21:01,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:01,408] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:01,429] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:01,429] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:12,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:12,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:12,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:12,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:23,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:23,425] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:23,446] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:23,447] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:34,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:34,406] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:34,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:34,428] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:45,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:45,412] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:45,425] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:45,426] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:56,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:21:56,412] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:21:56,430] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:21:56,430] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:21:59,370] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:21:59,374] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:21:59,380] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:21:59,393] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:21:59,396] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:21:59,405] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:22:07,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:22:07,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:22:07,406] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:22:07,406] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:22:18,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:22:18,412] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:22:18,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:22:18,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:22:29,399] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:22:29,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:22:29,432] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:22:29,433] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:22:40,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:22:40,405] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:22:40,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:22:40,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:22:51,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:22:51,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:22:51,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:22:51,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:22:59,373] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:22:59,380] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:22:59,385] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:22:59,390] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:22:59,395] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:22:59,449] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:23:02,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:02,414] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:02,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:02,424] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:13,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:13,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:13,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:13,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:24,392] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:24,406] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:24,426] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:24,426] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:35,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:35,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:35,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:35,432] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:46,422] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:46,443] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:46,458] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:46,459] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:57,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:23:57,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:23:57,420] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:23:57,420] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:23:59,378] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:23:59,382] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:23:59,387] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:23:59,391] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:23:59,399] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:23:59,420] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:24:08,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:24:08,411] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:24:08,430] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:24:08,430] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:24:19,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:24:19,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:24:19,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:24:19,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:24:30,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:24:30,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:24:30,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:24:30,404] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:24:41,388] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:24:41,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:24:41,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:24:41,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:24:52,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:24:52,418] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:24:52,438] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:24:52,438] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:24:59,371] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:24:59,372] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:24:59,375] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:24:59,377] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:24:59,412] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:24:59,416] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:25:03,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:03,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:03,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:03,431] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:14,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:14,422] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:14,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:14,436] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:25,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:25,410] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:25,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:25,437] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:36,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:36,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:36,422] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:36,422] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:47,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:47,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:47,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:47,413] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:58,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:25:58,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:25:58,445] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:25:58,445] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:25:59,380] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:25:59,382] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:25:59,385] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:25:59,388] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:25:59,394] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:25:59,415] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:26:09,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:26:09,412] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:26:09,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:26:09,423] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:26:20,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:26:20,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:26:20,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:26:20,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:26:31,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:26:31,409] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:26:31,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 203 - asset_scanner - [AssetScannerLoop] k8s-node2(5fb5187996136cdd11edaf88) auth task is unok
+[2020-11-20 11:26:31,417] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:26:42,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:26:42,407] - INFO - process: 6592 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] Chech all child task status of k8s-node2(5fb5187996136cdd11edaf88)
+[2020-11-20 11:26:42,514] - INFO - process: 6592 - asset_scanner.py - utils.logger - 173 - asset_scanner - [AssetScannerLoop] refresh k8s-node2(5fb5187996136cdd11edaf88) asset status(Completed).
+[2020-11-20 11:26:42,514] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:26:53,387] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:26:53,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:26:59,372] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:26:59,377] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:26:59,378] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:26:59,386] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:26:59,395] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:26:59,399] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:27:04,391] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:04,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:15,386] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:15,389] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:26,386] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:26,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:37,396] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:37,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:48,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:48,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:59,387] - INFO - process: 6592 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 11:27:59,391] - INFO - process: 6592 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 11:27:59,393] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:27:59,395] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 11:27:59,399] - INFO - process: 6592 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 11:27:59,400] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:27:59,402] - INFO - process: 6592 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 11:27:59,403] - INFO - process: 6592 - awvs_scanner.py - utils.logger - 49 - awvs_scanner - [AwvsTaskLoop] Finished AwvsTaskLoop Task...(no need tasks).
+[2020-11-20 11:28:10,390] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:28:10,395] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:28:21,398] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:28:21,402] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:28:32,397] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:28:32,401] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 11:28:43,394] - INFO - process: 6592 - asset_scanner.py - utils.logger - 176 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 11:28:43,415] - INFO - process: 6592 - asset_scanner.py - utils.logger - 220 - asset_scanner - [AssetScannerLoop] Schedule Finished.

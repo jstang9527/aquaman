@@ -1,0 +1,196 @@
+# -*- coding: utf-8 -*-
+import time
+from threading import Thread
+from datetime import datetime
+from application import config_name
+from multiprocessing import Pool
+from aquaman.lib.mongo_db import connectiondb, db_name_conf
+from aquaman.modules.auth_vul.hydra_plugin import HydraScanner, ServiceCheck
+from utils.public import parse_target
+from apscheduler.schedulers.blocking import BlockingScheduler
+from bson import ObjectId
+from func_timeout.exceptions import FunctionTimedOut
+from func_timeout import func_set_timeout
+from utils.logger import get_logger
+import logging
+logging.basicConfig()
+log = get_logger()
+auth_db = db_name_conf()['auth_db']
+config_db = db_name_conf()['config_db']
+weekpasswd_db = db_name_conf()['weekpasswd_db']
+
+
+def hydra_scanner(target_list, service, username_list, password_list, args):
+    start = HydraScanner(target_list, service, username_list, password_list, args)
+    result = start.run()
+    return result
+
+
+def service_check(target_list, service, args):
+    start = ServiceCheck(target_list, service, args)
+    result = start.run()
+    return result
+
+
+class AuthCrack:
+    def __init__(self, task_id):
+        self.task_id = task_id
+        self.check_result = {}  # 检测结果
+        self.online_target = []  # 在线目标
+        self.result_pool = []
+        self.result = []
+        self.week_count = 0  # 威胁统计,也就是说有几个目标失陷
+
+        self.auth_info = connectiondb(auth_db).find_one({"_id": ObjectId(self.task_id)})
+        self.task_name = self.auth_info['task_name']  # 191030_ssh_check
+        self.target_list = parse_target(self.auth_info['target'])  # [u'192.168.1.141', u'192.168.1.141']
+        self.service_list = self.auth_info['service']  # [u'ssh']
+        self.args = self.auth_info['args']  # u''
+
+        self.config_info = connectiondb(config_db).find_one({"config_name": config_name})
+        self.processes = self.config_info['auth_tester_thread']  # 50
+        self.username_list = self.config_info['username_dict']  # ["root"]
+        self.password_list = self.config_info['password_dict']  # [u'123456', u'password', u'12345678', u'admin', u'admin123', u'000000', u'111111', u'666666', u'1qaz2wsx', u'1qaz2wsx3edc.com']
+
+    def set_task(self):
+        try:
+            self.run()
+        except FunctionTimedOut:
+            log.error("[*] AuthCrack TaskScan Timeout", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            connectiondb(auth_db).update_one({"_id": ObjectId(self.task_id)}, {"$set": {"status": "Failed"}})
+
+    @func_set_timeout(300)
+    def run(self):
+        connectiondb(auth_db).update_one({"_id": ObjectId(self.task_id)}, {"$set": {"status": "Processing"}})
+        # start host check
+        # tmp_result = []
+        start_time = datetime.now()
+        # log.info("[*] %s %s Service Check..." % (check_time.strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+        # for service in self.service_list:
+        #     # Filter online host
+        #     pool_a = Pool(processes=self.processes)
+        #     for target in self.target_list:
+        #         tmp_result.append(pool_a.apply_async(service_check, (target, service, self.args)))
+        #     pool_a.close()
+        #     pool_a.join()
+        #     for res_a in tmp_result:
+        #         if res_a.get():
+        #             target = res_a.get()['target']
+        #             result = res_a.get()['result']
+        #             if result:
+        #                 username = result['username']
+        #                 password = result['password']
+        #                 if not username:
+        #                     username = "None"
+        #                 if not password:
+        #                     password = "None"
+        #                 self.save_result(target, service, username, password)
+        #             else:
+        #                 self.online_target.append(target)
+        #     self.check_result[service] = self.online_target
+        #     self.online_target = []
+        #     tmp_result = []
+        # check_end_time = datetime.now()
+        # log.info("[*] %s %s Service Check Done..." % (check_end_time.strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+        # log.info("[*] %s Service check used time: %ss" % (self.task_name, (check_end_time - check_time).seconds))
+        # 对在线的主机服务进行检测
+        log.info("[*] %s %s Crack Start..." % (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+        pool_b = Pool(processes=self.processes)
+        log.info("self.target_list ==>%s" % self.target_list)
+        log.info("self.check_result ==>%s" % self.check_result)
+        for service, target_list in self.check_result.items():
+            self.result.append(
+                pool_b.apply_async(hydra_scanner, (target_list, service, self.username_list, self.password_list, self.args))
+            )
+        pool_b.close()
+        pool_b.join()
+        log.info("[*] %s %s Crack Done..." % (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+        for res_b in self.result:
+            if res_b.get():
+                for i in res_b.get():
+                    target = i['target']
+                    service = i['service']
+                    username = i['username']
+                    password = i['password']
+                    self.save_result(target, service, username, password)
+        log.info("[*] %s Crack used time: %ss" % (self.task_name, (datetime.now() - start_time).seconds))
+        log.info("[*] %s %s Saving result..." % (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+        connectiondb(auth_db).update_one({"_id": ObjectId(self.task_id)}, {"$set": {"status": "Completed", "week_count": self.week_count}})
+        log.info("[*] %s %s Save result done..." % (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), self.task_name))
+
+    def save_result(self, target, service, username, password):
+        data = {
+            "target": target,
+            "service": service,
+            "username": username,
+            "password": password,
+            "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "task_id": self.task_id,
+            "task_name": self.task_name,
+        }
+        self.week_count += 1
+        _id = connectiondb(weekpasswd_db).insert_one(data).inserted_id
+        log.info("[*] Success Save result, weekpassword id: ", _id)
+
+
+class AuthTesterLoop:
+    def __init__(self):
+        pass
+
+    def task_schedule(self):
+        scheduler = BlockingScheduler()  # 定时任务
+        try:
+            scheduler.add_job(self._get_task, 'interval', seconds=600)
+            scheduler.start()
+        except Exception as e:
+            log.error("Failed schedule task, info: %s" % e)
+
+    """
+    完成/失败的任务才周期性扫描，否则(New, Queued, Processing)手动重扫
+    """
+    def _get_task(self):
+        log.info('Start AuthTesterLoop Task...')
+        for task_info in connectiondb(auth_db).find():
+            recursion = int(task_info['recursion'])
+            task_id = "%s" % task_info['_id']
+            start_date = datetime.strptime(task_info['date'], "%Y-%m-%d %H:%M:%S")
+            plan_time = (datetime.now() - start_date).total_seconds()
+
+            if "Process" in task_info['status']:
+                continue
+            # once time
+            if recursion == 0:
+                continue
+            log.info('task_name:%s; %s' % (task_info['task_name'], plan_time))
+            # every day
+            if recursion == 1:
+                if plan_time > 60 * 60 * 24 * 1:
+                    log.info('Every Day Task Start...')
+                    if self.start_loop_scan(task_id):
+                        log.info("[*] Every Day Task Start...", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            # every week
+            elif recursion == 7:
+                if plan_time > 60 * 60 * 24 * 7:
+                    log.info('Every Week Task Start...')
+                    if self.start_loop_scan(task_id):
+                        log.info("[*] Every Week Task Start...", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            # every month
+            elif recursion == 30:
+                if plan_time > 60 * 60 * 24 * 30:
+                    log.info('Every Month Task Start...')
+                    if self.start_loop_scan(task_id):
+                        log.info("[*] Every Month Task Start...", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+
+    def start_loop_scan(self, task_id):
+        connectiondb(weekpasswd_db).delete_many({"task_id": task_id})
+        connectiondb(auth_db).update_one({"_id": ObjectId(task_id)}, {"$set": {
+            "status": "Queued",
+            "date": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+            "week_count": 0,
+        }})
+        scanner = AuthCrack(task_id)
+        if scanner:
+            t1 = Thread(target=scanner.set_task, args=())
+            t1.start()
+            return True
+        return False

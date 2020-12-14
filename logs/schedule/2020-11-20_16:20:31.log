@@ -1,0 +1,18 @@
+[2020-11-20 16:21:04,953] - INFO - process: 23288 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 16:21:04,961] - INFO - process: 23288 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 16:21:29,485] - INFO - process: 23288 - asset_scanner.py - utils.logger - 153 - asset_scanner - [AssetScanner] 201120_test01(5fb77c89d53d38b50bb22faa) Task Start >>>.
+[2020-11-20 16:21:34,951] - INFO - process: 23288 - awvs_scanner.py - utils.logger - 36 - awvs_scanner - [AwvsTaskLoop] Schedule Start.
+[2020-11-20 16:21:34,959] - INFO - process: 23288 - poc_scanner.py - utils.logger - 141 - poc_scanner - [PocScannerLoop] Schedule Start.
+[2020-11-20 16:21:34,963] - INFO - process: 23288 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 16:21:34,976] - INFO - process: 23288 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] The 201120_test01(5fb77c89d53d38b50bb22faa) does not have any port.(no records)
+[2020-11-20 16:21:34,977] - INFO - process: 23288 - auth_scanner.py - utils.logger - 122 - auth_scanner - [AuthTesterLoop] Schedule Start.
+[2020-11-20 16:21:34,977] - INFO - process: 23288 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
+[2020-11-20 16:21:34,977] - INFO - process: 23288 - poc_scanner.py - utils.logger - 181 - poc_scanner - [PocScannerLoop] Schedule Finished.
+[2020-11-20 16:21:34,984] - INFO - process: 23288 - auth_scanner.py - utils.logger - 154 - auth_scanner - [AuthTesterLoop] Schedule Finished.
+[2020-11-20 16:21:34,998] - INFO - process: 23288 - awvs_scanner.py - utils.logger - 33 - awvs_scanner - [AwvsTaskLoop] refresh 201120z8u0_253:86(5fb77b43495b4fc8baa095ab) asset status(completed).
+[2020-11-20 16:21:34,999] - INFO - process: 23288 - awvs_scanner.py - utils.logger - 77 - awvs_scanner - [AwvsTaskLoop] Schedule Finished.
+[2020-11-20 16:21:51,450] - INFO - process: 23288 - asset_scanner.py - utils.logger - 155 - asset_scanner - [AssetScanner] 201120_test01(5fb77c89d53d38b50bb22faa) set_tasks.
+[2020-11-20 16:21:51,463] - INFO - process: 23288 - asset_scanner.py - utils.logger - 157 - asset_scanner - [AssetScanner] 201120_test01(5fb77c89d53d38b50bb22faa) Task Finished <<<.
+[2020-11-20 16:22:04,956] - INFO - process: 23288 - asset_scanner.py - utils.logger - 181 - asset_scanner - [AssetScannerLoop] Schedule Start.
+[2020-11-20 16:22:04,966] - INFO - process: 23288 - asset_scanner.py - utils.logger - 197 - asset_scanner - [AssetScannerLoop] The 201120_test01(5fb77c89d53d38b50bb22faa) does not have any port.(no records)
+[2020-11-20 16:22:04,967] - INFO - process: 23288 - asset_scanner.py - utils.logger - 225 - asset_scanner - [AssetScannerLoop] Schedule Finished.
