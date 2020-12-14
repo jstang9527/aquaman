@@ -10,7 +10,7 @@
 - 自动化作业任务(周期、定时探测)
 
 # Description
-(图片)
+(若图片无法显示，可在images文件夹中获得)  
 0.login  
 ![login](https://github.com/jstang9527/aquaman/tree/main/images/login.png)  
 1.Dashboard  
