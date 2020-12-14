@@ -12,29 +12,29 @@
 # Description
 (图片)
 0.login  
-![login]()  
+![login](https://github.com/jstang9527/aquaman/tree/main/images/login.png)  
 1.Dashboard  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/dashboard.png)  
 2.资产任务  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/assets.png)  
 3.资产详情  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/asset1.png)  
 4.资产详情2  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/asset2.png)  
 5.资产详情3  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/asset3.png)  
 6.Poc漏洞渗透  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/poc.png)  
 7.Web漏洞检出  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/webs.png)  
 8.Web漏洞详情  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/web.png)  
 9.认证爆破  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/authtest.png)  
 10.认证任务  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/authtest2.png)  
 11.系统设定  
-![dashboard]()  
+![dashboard](https://github.com/jstang9527/aquaman/tree/main/images/sys.png)  
 
 
 # Require
