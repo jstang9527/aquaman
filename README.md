@@ -1,73 +1,77 @@
 # Aquaman
 
-#### Description：
-基于Centos7系统的支持多平台的沙箱环境。可用于仿真各型操作系统，投放样本运行, 结合其他工具流量分析等。例如仿真摄像头、交换机等不同平台操作系统中运行样本，分析恶意流量。
+自动化渗透测试(安全审计)API服务器
 
-#### Require：
-- Centos7.5(>=7.0)
-- Python2
-- Qemu-4.2.0(>=4.2.0)
-- paramiko
-- wireshark
-- libvirtd
-#### Support:
-- x86 https://people.debian.org/~aurel32/qemu/i386/debian_wheezy_i386_standard.qcow2
-- x86-64 https://people.debian.org/~aurel32/qemu/amd64/debian_wheezy_amd64_standard.qcow2
-- arm [https://people.debian.org/~aurel32/qemu/armel/debian_wheezy_armel_standard.qcow2, https://people.debian.org/~aurel32/qemu/armel/initrd.img-3.2.0-4-versatile, https://people.debian.org/~aurel32/qemu/armel/vmlinuz-3.2.0-4-versatile]
-- mips [https://people.debian.org/~aurel32/qemu/mips/vmlinux-3.2.0-4-4kc-malta, https://people.debian.org/~aurel32/qemu/mips/debian_wheezy_mips_standard.qcow2]
-- mipsel [https://people.debian.org/~aurel32/qemu/mipsel/vmlinux-3.2.0-4-4kc-malta, https://people.debian.org/~aurel32/qemu/mipsel/debian_wheezy_mipsel_standard.qcow2]
-#### NetworkScript  
+# Function
+- 资产探测(探测资产信息,Web指纹、IP运营商、GPS、区域、端口、服务等信息)
+- 认证爆破(支持ssh、ftp、vnc、cisco、smb、mysql、smtp等数十种服务的认证爆破)
+- Web渗透(SQL注入、upload任意文件上传等高危web漏洞)
+- 服务漏洞(包含中间件、web服务器、数据库、网站等可定制的Poc检测)
+- 自动化作业任务(周期、定时探测)
+
+# Description
+(图片)
+0.login  
+![login]()  
+1.Dashboard  
+![dashboard]()  
+2.资产任务  
+![dashboard]()  
+3.资产详情  
+![dashboard]()  
+4.资产详情2  
+![dashboard]()  
+5.资产详情3  
+![dashboard]()  
+6.Poc漏洞渗透  
+![dashboard]()  
+7.Web漏洞检出  
+![dashboard]()  
+8.Web漏洞详情  
+![dashboard]()  
+9.认证爆破  
+![dashboard]()  
+10.认证任务  
+![dashboard]()  
+11.系统设定  
+![dashboard]()  
+
+
+# Require
+- Python2.7
+- Hydra
+- Awvs
+- Nmap
+- Pocsuite
+
+
+# Install
+- 容器安装
+docker run -d -p 27017:27017 -v /home/aquaman/mongo/config:/data/configdb -v /home/aquaman/mongo/db:/data/db --name mongo mongo --auth  
+docker run -it -d -p 23443:3443 --name awvs jstang/awvs:1.0  
+docker run -itd -v settings.py:/home/aquaman/application/settings.py -p 9777:9777 --name aquaman jstang/aquaman:1.0  
+docker run -itd -v vue.config.js:/opt/vue.config.js -p 9527:9527 --name aquaman-view jstang/aquaman-view:1.0  
+
+# Dockerfile
 ```shell
-#! /bin/sh
-# Script to bring a network (tap) device for qemu up.
-# The idea is to add the tap device to the same bridge
-# as we have default routing to.
-# in order to be able to find brctl
-PATH=$PATH:/sbin:/usr/sbin
-ip=$(which ip)
-ifconfig=$(which ifconfig)
-echo "Starting"  $1
-if [ -n "$ip" ]; then
-   ip link set "$1" up
-else
-   brctl=$(which brctl)
-   if [ ! "$ip" -o ! "$brctl" ]; then
-     echo "W: $0: not doing any bridge processing: neither ip nor brctl utility not found" >&2
-     exit 0
-   fi
-   ifconfig "$1" 0.0.0.0 up
-fi
-switch=$(ip route ls | \
-    awk '/^default / {
-          for(i=0;i<NF;i++) { if ($i == "dev") { print $(i+1); next; } }
-         }'
-        )
-    if [ -d /sys/class/net/br0/bridge/. ]; then
-        if [ -n "$ip" ]; then
-          ip link set "$1" master br0
-        else
-          brctl addif br0 "$1"
-        fi
-        exit    # exit with status of the previous command
-    fi
-echo "W: $0: no bridge for guest interface found" >&2
-```  
-#### VM Start:
-```shell
-x86:       
-qemu-system-i386 -hda /vm/qemu/x86/1/debian_wheezy_i386_standard.qcow2 -net nic,macaddr=a0:36:9f:a2:32:c2 -net tap -monitor stdio
+FROM prodataninja/ubuntu-python2.7:latest
 
-x86-64:
-qemu-system-x86_64 -hda /vm/qemu/x86-64/1/debian_wheezy_amd64_standard.qcow2 -net nic,macaddr=a0:36:9f:a2:32:c3 -net tap -monitor stdio
+MAINTAINER jstang <389634070@qq.com>
 
-arm:
-qemu-system-arm -M versatilepb -kernel /vm/qemu/arm/1/vmlinuz-3.2.0-4-versatile -initrd /vm/qemu/arm/1/initrd.img-3.2.0-4-versatile -hda /vm/qemu/arm/1/debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1" -net nic,macaddr=a0:36:9f:a2:32:c4 -net tap -monitor stdio
+ADD . /home/aquaman
 
-mips:
-qemu-system-mips -M malta -kernel /vm/qemu/mips/1/vmlinux-3.2.0-4-4kc-malta -hda /vm/qemu/mips/1/debian_wheezy_mips_standard.qcow2 -append "root=/dev/sda1 console=tty0" -net nic,macaddr=a0:36:9f:a2:32:c5 -net tap -monitor stdio
+WORKDIR /home/aquaman
 
-mipsel:
-qemu-system-mipsel -M malta -kernel /vm/qemu/mipsel/1/vmlinux-3.2.0-4-4kc-malta -hda /vm/qemu/mipsel/1/debian_wheezy_mipsel_standard.qcow2 -append "root=/dev/sda1 console=tty0" -net nic,macaddr=a0:36:9f:a2:32:c6 -net tap -monitor stdio
+RUN rm -rf mongo && \
+    apt-get update && \
+    apt-get -y install hydra nmap && \
+    pip install --upgrade pip -i https://pypi.doubanio.com/simple/ && \
+    pip install -r requirements.txt -i https://pypi.doubanio.com/simple/
+
+EXPOSE 9777
+
+CMD ["python", "main.py"]
 ```
-#### More help:
-https://blog.csdn.net/qq_38900565/article/details/103880889
+
+# 免责声明
+本软件仅提供学习测试使用, 不得使用于非法用途, 若触发法律行为, 本人概不负责。
