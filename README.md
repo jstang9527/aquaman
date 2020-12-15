@@ -1,6 +1,6 @@
 # Aquaman(潜水员)
 ### 自动化渗透测试(安全审计)API服务器  
-在线Demo: https://zan71.com(探测、渗透操作被禁用，完全功能请自行docker搭建)  
+在线Demo: https://zan71.com (探测、渗透操作被禁用，完全功能请自行docker搭建)  
 
 # Function
 - 资产探测(探测资产信息,Web指纹、IP运营商、GPS、区域、端口、服务等信息)
